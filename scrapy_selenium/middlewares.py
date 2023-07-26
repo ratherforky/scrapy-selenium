@@ -50,7 +50,7 @@ class SeleniumMiddleware:
             driver_options.add_argument(argument)
 
         driver_kwargs = {
-            'executable_path': driver_executable_path,
+            # 'executable_path': driver_executable_path,
             f'{driver_name}_options': driver_options
         }
 
